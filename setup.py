@@ -31,6 +31,7 @@ to the admin interface.
 """,
     name='django_cas',
     packages=['django_cas',
+              'django_cas/migrations',
               'django_cas/management',
               'django_cas/management/commands'],
     url='https://github.com/fjollberg/django-cas2',
